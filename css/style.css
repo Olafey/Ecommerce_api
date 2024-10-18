@@ -7,4 +7,19 @@
 }
 
 * {
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+html {
 }
