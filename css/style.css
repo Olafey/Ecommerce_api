@@ -14,12 +14,39 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 body {
-  overflow-x: hidden;
   height: 100vh;
+  background-color: var(--sec-bg-color);
+  color: var(--text);
 }
 
 html {
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.navbar {
+  display: flex;
+  float: left;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 90px;
 }
