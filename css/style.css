@@ -1,0 +1,10 @@
+:root {
+  --bg-color: white;
+  --sec-bg-color: rgb(241, 241, 241);
+  --button: rgb(255, 166, 0);
+  --sec-button: rgb(255, 170, 0);
+  --text: black;
+}
+
+* {
+}
