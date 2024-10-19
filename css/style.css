@@ -74,7 +74,7 @@ html {
   padding: 0 4rem;
 }
 .content1 {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
   background-color: var(--bg-color);
@@ -85,6 +85,7 @@ html {
 }
 
 .content_description {
-  width: 50%;
+  width: 60%;
   display: block;
+  padding-right: 10rem;
 }
