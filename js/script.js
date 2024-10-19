@@ -16,5 +16,10 @@ let product_html = `
             <h3 class="product_price"></h3>
             <a href="" class="add_to_cart"></a>
           </div>
+          <div class="rate">
+          <h3 class="ratings"></h3>
+          <h5 class="count"></h5>
+          </div>
+
         </div>
 `;
