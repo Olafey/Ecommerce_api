@@ -65,27 +65,3 @@ html {
   list-style: none;
   margin-left: 2rem;
 }
-
-.section1 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-  padding: 0 4rem;
-}
-.content1 {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--bg-color);
-}
-
-.content_img img {
-  width: 50%;
-}
-
-.content_description {
-  width: 60%;
-  display: block;
-  padding-right: 10rem;
-}
