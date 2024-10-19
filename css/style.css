@@ -50,7 +50,7 @@ html {
 }
 
 .logo img {
-  width: 130px;
+  width: 9rem;
 }
 
 .links {
@@ -64,4 +64,27 @@ html {
   text-decoration: none;
   list-style: none;
   margin-left: 2rem;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 0 4rem;
+}
+.content1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+}
+
+.content_img img {
+  width: 50%;
+}
+
+.content_description {
+  width: 50%;
+  display: block;
 }
