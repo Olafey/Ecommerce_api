@@ -39,8 +39,10 @@ html {
 }
 
 .navbar {
+  width: 100%;
   display: flex;
-  float: left;
+  justify-content: space-between;
+  padding: 1rem 4rem;
 }
 
 .logo {
@@ -48,5 +50,18 @@ html {
 }
 
 .logo img {
-  width: 90px;
+  width: 130px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links li {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 2rem;
 }
