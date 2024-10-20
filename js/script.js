@@ -1,12 +1,12 @@
+const products = document.querySelector(".products");
+
 const apiUrl = async () => {
   const response = await fetch("https://fakestoreapi.com/products");
 
   const data = await response.json();
-  console.log(data);
-};
-apiUrl();
 
-let product_html = `
+  for (let i = 0; i < data.length; i++) {
+    products.innerHTML += `
    <div class="product">
           <img src="" alt="" class="product_img" />
           <h2 class="product_title"></h2>
@@ -23,3 +23,6 @@ let product_html = `
 
         </div>
 `;
+  }
+};
+apiUrl();
