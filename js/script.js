@@ -8,7 +8,7 @@ const apiUrl = async () => {
   for (let i = 0; i < data.length; i++) {
     products.innerHTML += `
    <div class="product">
-          <img src="" alt="" class="product_img" />${data[i].image}
+          <img src="${data[i].image}" alt="PRODUCT IMAGE" class="product_img" />
           <h2 class="product_title">${data[i].title}</h2>
           <h4 class="product_category">${data[i].category}</h4>
           <p class="product_description">${data[i].description}</p>
