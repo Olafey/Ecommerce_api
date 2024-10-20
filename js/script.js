@@ -9,7 +9,7 @@ const apiUrl = async () => {
     products.innerHTML += `
    <div class="product">
           <img src="" alt="" class="product_img" />
-          <h2 class="product_title"></h2>
+          <h2 class="product_title">${data[i].title}</h2>
           <h4 class="product_category"></h4>
           <p class="product_description"></p>
           <div class="product_price_container">
