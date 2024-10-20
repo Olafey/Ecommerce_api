@@ -14,14 +14,10 @@ const apiUrl = async () => {
           <p class="product_description">${data[i].description}</p>
           <div class="product_price_container">
             <h3 class="product_price"> $${data[i].price}</h3>
-            <a href="" class="add_to_cart"></a>
+            <a href="#!" class="add_to_cart">${data[i].id}</a>
           </div>
-          <div class="rate">
-          <h3 class="ratings">${data[i].ratings}</h3>
-          <h5 class="count">${data[i].count}</h5>
-          </div>
-
-        </div>
+          
+   </div>
 `;
   }
 };
