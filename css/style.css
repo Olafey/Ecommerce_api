@@ -65,3 +65,15 @@ html {
   list-style: none;
   margin-left: 2rem;
 }
+
+.product {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 1fr 2fr 1fr;
+  grid-template-columns: 30;
+}
+
+.product img {
+  width: 20%;
+  display: flex;
+}
