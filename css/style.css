@@ -69,8 +69,8 @@ html {
 .product {
   width: 100%;
   display: grid;
-  grid-template-areas: 1fr 2fr 1fr;
-  grid-template-columns: 30;
+  grid-template-columns: auto auto;
+  gap: 20px 20px;
 }
 
 .product img {
