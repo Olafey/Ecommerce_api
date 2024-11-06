@@ -28,6 +28,9 @@ body {
 
 html {
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .main {
@@ -66,14 +69,18 @@ html {
   margin-left: 2rem;
 }
 
-.product {
+.container {
   width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px 20px;
+  padding: 0 2rem;
+  margin: 0 auto;
 }
 
-.product img {
-  width: 20%;
-  display: flex;
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.product_img {
+  width: 100%;
 }
