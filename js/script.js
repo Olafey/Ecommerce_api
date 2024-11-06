@@ -22,7 +22,9 @@ const apiUrl = async () => {
           }</p>
           <div class="product_price_container">
             <h3 class="product_price"> $${data[i].price}</h3>
-            <a href="#!" class="add_to_cart">${data[i].id}</a>
+            <a href="#!" data-productId="${
+              data[i].id
+            }"  class="add_to_cart">Add to Cart</a>
           </div>
           
    </div>

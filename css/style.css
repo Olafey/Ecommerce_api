@@ -1,5 +1,6 @@
 :root {
   --bg-color: white;
+  --bg-color2: rgb(241, 228, 124);
   --sec-bg-color: rgb(241, 241, 241);
   --button: rgb(255, 166, 0);
   --sec-button: rgb(255, 170, 0);
@@ -83,4 +84,20 @@ html {
 
 .product_img {
   width: 100%;
+}
+
+.product .product_title {
+  font-size: 2rem;
+}
+
+.product {
+  background: var(--bg-color2);
+  padding: 0 0 2rem 0;
+}
+
+.product_title,
+.product_category,
+.product_description,
+.product_price_container {
+  padding: 1rem 2rem;
 }
