@@ -124,7 +124,25 @@ html {
 }
 
 .product_price_container {
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.add-to-cart {
+  background: rgb(118, 97, 255);
+  padding: 0.6rem 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: white;
+  border-radius: 1rem;
+}
+
+.add-to-cart {
+  font-size: 8rem;
 }

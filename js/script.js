@@ -24,7 +24,7 @@ const apiUrl = async () => {
             <h3 class="product_price"> $${data[i].price}</h3>
             <a href="#!" data-productId="${
               data[i].id
-            }"  class="add_to_cart">Add to Cart</a>
+            }"  class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></a>
           </div>
           
    </div>
