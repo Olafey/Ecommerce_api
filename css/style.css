@@ -1,7 +1,7 @@
 :root {
-  --bg-color: white;
-  --bg-color2: rgb(241, 228, 124);
-  --sec-bg-color: rgb(241, 241, 241);
+  --bg-color: rgb(224, 222, 222);
+  --bg-color2: rgb(239, 239, 239);
+  --sec-bg-color: rgb(255, 255, 255);
   --button: rgb(255, 166, 0);
   --sec-button: rgb(255, 170, 0);
   --text: black;
@@ -84,20 +84,47 @@ html {
 
 .product_img {
   width: 100%;
+  height: 400px;
+}
+
+.product_content {
+  padding: 1rem 2rem;
 }
 
 .product .product_title {
   font-size: 2rem;
 }
 
+.product_description {
+  text-align: justify;
+}
+
 .product {
   background: var(--bg-color2);
   padding: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product_title,
 .product_category,
 .product_description,
 .product_price_container {
-  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+}
+
+.product_category {
+  font-weight: 800;
+}
+
+.product_description {
+  font-weight: 10;
+}
+
+.product_price_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
